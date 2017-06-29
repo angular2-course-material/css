@@ -1,0 +1,41 @@
+.container {
+    height: 100px;
+    background: red;
+}
+
+.relative {
+    position: relative;
+}
+
+.item {
+    height: 50px;
+    background: yellow;
+}
+
+.inlineItem {
+    display: inline;
+}
+.positionStatic {
+    /*top:100px;*/
+}
+
+.positionRelative {
+    position: relative;
+    left: 70px;
+    top: 70px;
+}
+
+.positionAbsolute {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    /*z-index*/
+}
+
+.positionFixed {
+    position: fixed;
+    right: 90px;
+    top: 90px;
+    background: blue;
+    /*z-index*/
+}

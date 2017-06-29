@@ -1,0 +1,28 @@
+.container {
+    background-color: #eee;
+    width: 200px;
+    height: 70px;
+    border: 1px solid black;
+}
+  
+.overflowVisible {
+    overflow: visible;
+    margin-bottom: 300px;
+}
+.overflowHidden {
+    overflow: hidden;
+}
+.overflowScroll {
+    overflow: scroll;
+}
+.overflowAuto {
+    overflow: auto;
+}
+.overflowX {
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.overflowXY1{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}

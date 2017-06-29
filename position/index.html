@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Box Sizing</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Static (default)</h1>
+        <div class="container positionStatic">
+            <div>Test 1 - Static</div>
+            <div>Test 2 - Static</div>
+        </div>  
+        
+        <h1>Relative</h1>
+        <div class="container">
+            <div class="item">Test 1 - relative</div>
+            <div class="item positionRelative">Test 2 - relative</div>
+        </div>  
+        <div style="margin:100px;"></div>
+        <div class="container">
+            <div class="item inlineItem">Test 3 - relative</div>
+            <div class="item inlineItem positionRelative">Test 4 - relative</div>
+        </div>    
+        
+
+        <h1>Absolute</h1>
+        <div class="container">
+            <div class="item">Test 1 - absolute</div>
+            <div class="item positionAbsolute">Test 2 - absolute</div>
+        </div>  
+        <div style="margin:100px;"></div>
+        <div class="container">
+            <div class="item inlineItem">Test 3 - absolute</div>
+            <div class="item inlineItem positionAbsolute">Test 4 - absolute</div>
+        </div>      
+        <div style="margin:100px;"></div>
+        <div class="container relative">
+            <div class="item inlineItem">Test 5 - absolute</div>
+            <div class="item inlineItem positionAbsolute">Test 6 - absolute</div>
+        </div>   
+        
+        <h1>Fixed</h1>
+        <div class="container">
+            <div class="item">Test 1 - Fixed</div>
+            <div class="item positionFixed">Test 2 - Fixed</div>
+        </div>  
+        <div style="margin:100px;"></div>
+        <div class="container">
+            <div class="item inlineItem">Test 3 - Fixed</div>
+            <div class="item inlineItem positionFixed">Test 4 - Fixed</div>
+        </div>      
+        <div style="margin:100px;"></div>
+        <div class="container relative">
+            <div class="item">Test 5 - Fixed</div>
+            <div class="item inlineItem positionFixed">Test 6 - Fixed</div>
+        </div>   
+    </body>
+</html>
